@@ -8,4 +8,3 @@
   git remote add origin "https://github.com/Raissa12best/Gym-Git-Exercise-Solutions.git"
   git push -u origin
   git push -u origin main
-
