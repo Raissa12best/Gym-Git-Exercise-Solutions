@@ -40,3 +40,18 @@ Exercise 2 Bundle 1
     git stash pop stash@{0}    
      git reset --hard
      history
+Exercise 1 Bundle 2
+
+git fetch origin
+   git status
+   git log origin/main
+   git diff origin/main
+   git branch ft/bundle-2
+   git checkout ft/bundle-2
+    touch services.html
+    git add services.html
+    git commit -m "added the page  of services"
+    git push -u origin ft/bundle-2        
+    git checkout main
+    created a pull request and merge branches on Github
+    history
