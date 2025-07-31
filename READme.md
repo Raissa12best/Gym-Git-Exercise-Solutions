@@ -90,7 +90,9 @@ touch team.html
 team.html
 git commit -m "feat: add team.html with team content"
 git push -u origin ft/team-page
-
+```
+### Exercise 2 Bundle 3
+``` bash
 git checkout main
 
 git checkout -b ft/contact-page
@@ -115,4 +117,36 @@ git checkout ft/team-page
 git revert 6b6b295
 
 git push origin ft/team-page
+```
 
+### Bundle 4 exercise 1
+``` bash
+54  git checkout main
+   55  git remote add git-copy https://github.com/Raissa12best/Gym-Git-Copy.git
+   56  git remote -v
+   57  git push git-copy main
+   58  git add .
+   59  git commit -m "Updated version"   
+    git push origin HEAD
+   61  git push git-copy HEAD
+   62  git remote -v
+   63  history
+   ```
+   ### Bundle 4 Exercise 2
+   ``` bash
+   git branch ft/footer
+   65  git checkout ft/footer
+   66  git add home.html
+   67  git commit -m " feat : add basic footer section"
+   68  git add home.html
+   69  git commit -m "footer text"    
+   70  git push -u origin ft/footer   
+   71  git checkout main
+   72  git branch ft/squashing        
+   
+   73  git checkout ft/squashing      
+   74  git merge --squash ft/footer   
+   75 git commit -m " footer changes 
+squashing"
+   76 git push -u origin ft/squashing
+```
