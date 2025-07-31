@@ -42,7 +42,7 @@
      history
 ```
 ### Exercise 1 Bundle 2
-    ``` bash
+``` bash
    git branch ft/bundle-2
    git checkout ft/bundle-2
     touch services.html
