@@ -52,7 +52,7 @@
     git checkout main
     created a pull request and merge branches on Github
     history
-``` 
+```
  ### Exercise 2 Bundle 2
  ``` bash
   git checkout main   
@@ -74,5 +74,7 @@
    git checkout ft/service-redesign
    git diff main ft/service-redesign
    git merge main
+   git add service.html
+   git commit -m "updated"
    git push 
    ```
