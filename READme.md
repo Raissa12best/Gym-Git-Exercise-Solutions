@@ -78,3 +78,40 @@
    git commit -m "updated"
    git push 
    ```
+   ### Exercise 1 Bundle 3
+   ```  bash
+
+   
+  
+git checkout -b ft/team-page
+
+touch team.html
+team.html
+git commit -m "feat: add team.html with team content"
+git push -u origin ft/team-page
+
+git checkout main
+
+git checkout -b ft/contact-page
+
+git checkout ft/team-page
+
+
+
+
+git checkout ft/contact-page
+git cherry-pick 6b6b295
+
+git push -u origin ft/contact-page
+
+git checkout -b ft/faq-page
+
+touch faq.html
+git add faq.html
+git commit -m "feat: add faq.html "
+git push -u origin ft/faq-page
+git checkout ft/team-page
+git revert 6b6b295
+
+git push origin ft/team-page
+
