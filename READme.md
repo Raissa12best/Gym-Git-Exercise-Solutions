@@ -77,9 +77,10 @@
    git add service.html
    git commit -m "updated"
    git push 
-   ```
-   ### Exercise 1 Bundle 3
-   ```  bash
+```
+  ### Exercise 1 Bundle 3
+
+```  bash
 
    
   
