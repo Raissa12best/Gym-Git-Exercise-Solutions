@@ -14,10 +14,10 @@
   git branch
   git branch -D test
 
+```
+### Exercise 2 Bundle 1
 
-Exercise 2 Bundle 1
-
-
+```bash
  touch home.html
     git add home.html
      git stash push -m "Added home.html" home.html
@@ -40,12 +40,9 @@ Exercise 2 Bundle 1
     git stash pop stash@{0}    
      git reset --hard
      history
-Exercise 1 Bundle 2
-
-git fetch origin
-   git status
-   git log origin/main
-   git diff origin/main
+```
+### Exercise 1 Bundle 2
+    ``` bash
    git branch ft/bundle-2
    git checkout ft/bundle-2
     touch services.html
@@ -55,3 +52,27 @@ git fetch origin
     git checkout main
     created a pull request and merge branches on Github
     history
+``` 
+ ### Exercise 2 Bundle 2
+ ``` bash
+  git checkout main   
+
+   70  git pull origin main   
+   git branch ft/service-redesign  
+   71  git checkout ft/service-redesign
+   72 
+   
+   75  git add service.html     
+   76  git add services.html    
+   77  
+   78  git commit -m "updated Files"
+   79  git push -u ft/service-redesign
+   git checkout main
+   git add services.html
+   git commit -m "updated"
+   git push
+   git checkout ft/service-redesign
+   git diff main ft/service-redesign
+   git merge main
+   git push 
+   ```
